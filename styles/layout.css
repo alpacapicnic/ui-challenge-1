@@ -1,0 +1,149 @@
+.deck {
+    position:relative;
+}
+
+.first-center {
+
+    background-color: aqua;
+    width: 478px;
+    height: 73px;
+    border: 1px solid black;
+}
+
+.second-left {
+    background-color: blueviolet;
+    width: 478px;
+    height: 148px;
+    border: 1px solid black;  
+}
+
+.third-left {
+    background-color: cornflowerblue;
+    width: 478px;
+    height: 123px;
+    border: 1px solid black;   
+}
+.third-right {
+    background-color: rgb(237, 100, 230);
+    width: 478px;
+    height: 123px;
+    border: 1px solid black;
+} 
+.fourth-left {
+    background-color: chartreuse;
+    width: 238px;
+    height: 248px;
+    border: 1px solid black;
+    float: left;
+    
+}
+.fourth-leftmiddle {
+    background-color: rgb(212, 77, 59);
+    width: 238px;
+    height: 248px;
+    border: 1px solid black;
+    float: left;
+    
+}
+.fourth-rightmiddle {
+    background-color: rgb(30, 160, 80);
+    width: 238px;
+    height: 248px;
+    border: 1px solid black;
+    float: left;
+    
+}
+.fourth-right {
+    background-color: rgb(189, 212, 59);
+    width: 238px;
+    height: 248px;
+    border: 1px solid black;
+    float: left;
+    
+}
+.bottom {
+    background-color: rgb(140, 228, 240);
+    width: 478px;
+    height: 78px;
+    border: 1px solid black;
+    float: left;
+}
+
+@media screen and (min-width:768px) {
+
+    .deck {
+        overflow:hidden;
+    }
+    .deck2 {
+        width: 200px;
+    }
+    /* .deck3 {
+        overflow:hidden;
+    } */
+
+    .first-center {
+        background-color: aqua;
+        width: 958px;
+        height: 98px;
+        border: 1px solid black;
+    }
+    
+    .second-left {
+        background-color: blueviolet;
+        width: 198px;
+        height: 598px;
+        float: left;
+        
+    }
+    
+    .third-left {
+        background-color: cornflowerblue;
+        width: 378px;
+        height: 198px;
+        border: 1px solid black;
+        float: left;
+            
+    }
+    .third-right {
+        background-color: rgb(237, 100, 230);
+        width: 378px;
+        height: 198px;
+        border: 1px solid black;
+        float: left; 
+    }
+    .fourth-left {
+        background-color: chartreuse;
+        width: 188px;
+        height: 248px;
+        border: 1px solid black;
+        float: left;
+    }
+    .fourth-leftmiddle {
+        background-color: rgb(212, 77, 59);
+        width: 188px;
+        height: 248px;
+        border: 1px solid black;
+        float: left;
+    }
+    .fourth-rightmiddle {
+        background-color: rgb(30, 160, 80);
+        width: 188px;
+        height: 248px;
+        border: 1px solid black;
+        float: left;
+    }
+    .fourth-right {
+        background-color: rgb(189, 212, 59);
+        width: 188px;
+        height: 248px;
+        border: 1px solid black;
+        float: left;
+    }
+    .bottom {
+        background-color: rgb(140, 228, 240);
+        width: 758px;
+        height: 148px;
+        border: 1px solid black;
+        float: left;
+    }
+}
